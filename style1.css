@@ -1,0 +1,109 @@
+body{
+  background: bisque;
+}
+
+  .maindiv{
+    background: aqua;
+    margin: 0;
+    border-radius: 10%;
+    display: flex;
+  }
+
+.leftdiv{
+  background: pink;
+  margin:5%;
+  border-radius: 3%;
+  box-shadow: 3Px 3px 3px 3px;
+  text-align: center;
+  height: 80%;
+  position: fixed;
+  margin-left: 3%;
+  width: 20%;
+}
+.rightdiv{
+  background: lightgreen;
+  margin:3%;
+  border-radius: 5%;
+  box-shadow:5px 3px 5px 5px;
+  padding: 1%;
+  margin-left : 32%;
+  width: 65%;
+}
+img{
+  margin:5%;
+  height: 35%;
+  width: 90%;
+}
+
+@media screen and (max-width:480px) {
+
+
+
+  .maindiv{
+    background: aqua;
+    margin: 0;
+    display: inline-block;
+    justify-content: space-between;
+  }
+  .leftdiv{
+    background: pink;
+    margin:0;
+    border-radius: 5px;
+    box-shadow: 4px  4px 4px 4px;
+    text-align: center;
+    width:100%;
+    height:50%;
+    position:relative;
+  }
+  .rightdiv{
+    background: skyblue;
+    margin:0%;
+    border-radius: 3%;
+    box-shadow: 2px  2px 2px 2px;
+    text-align: center;
+    width:100%;
+    height:100%;
+    margin-top: 4%;
+    padding:2%;
+  }
+
+  }
+  img{
+    margin: 3%;
+    height:50%;
+    width: 50%;
+  }
+}
+@media screen and (min-width:481px) and (max-width:1000px) {
+  .maindiv{
+    background: aqua;
+    margin: 0;
+    border-radius: 20%;
+    display: flex;
+  }
+  .leftdiv{
+    background: pink;
+    margin:3%;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 3px;
+    text-align: center;
+    height: 100%;
+    position: fixed;
+    margin-left: 7%;
+    width: 50%;
+  }
+  .rightdiv{
+    background: lightgreen;
+    margin:3%;
+    border-radius: 5%;
+    box-shadow:5px 3px 5px 5px;
+    padding: 1%;
+    margin-left : 32%;
+    width: 65%;
+  }
+  img{
+    margin:5%;
+    height: 15%;
+    width: 70%;
+  }
+}
